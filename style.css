@@ -342,3 +342,15 @@ margin-bottom:5px;
 .gallery{
     background: #eeeeee;
 }
+
+@media (max-width:768px){
+
+.navbar{
+padding:15px 20px;
+}
+
+.cards{
+grid-template-columns:1fr;
+}
+
+}
