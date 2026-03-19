@@ -345,12 +345,49 @@ margin-bottom:5px;
 
 @media (max-width:768px){
 
-.navbar{
-padding:15px 20px;
-}
-
 .cards{
 grid-template-columns:1fr;
+}
+
+}
+
+@media (max-width: 768px){
+
+.navbar{
+flex-direction: column;
+align-items: center;
+padding: 10px 0;
+}
+
+.nav-links{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 12px;
+margin-top: 10px;
+}
+
+.nav-links a{
+font-size: 14px;
+}
+
+
+.hero h1{
+font-size: 32px;
+line-height: 1.2;
+}
+
+.hero p{
+font-size: 14px;
+padding: 0 10px;
+}
+
+.hero{
+padding: 0 15px;
+}
+
+body{
+padding-top: 70px;
 }
 
 }
