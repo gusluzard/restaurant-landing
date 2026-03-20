@@ -19,20 +19,28 @@
 <h2 class="logo">Sabor</h2>
 
 <ul class="nav-links">
-<li><a href="#inicio">Inicio</a></li>
+<li><a href="#hero">Inicio</a></li>
 <li><a href="#menu">Menú</a></li>
 <li><a href="#galeria">Galería</a></li>
-<li><a href="#contacto">Contacto</a></li>
+<li><a href="#contact">Contacto</a></li>
 </ul>
+
 </nav>
+
+<a href="https://wa.me/593XXXXXXXXX" target="_blank" class="whatsapp-btn">
+  <i class="fa-brands fa-whatsapp"></i>
+</a>
 
 </header>
 
-<section class="hero">
+<section class="hero" id="hero">
 <div class="hero-content">
 <h1>Las mejores hamburguesas de la ciudad</h1>
 <p>Carne premium, pan artesanal y sabor único.</p>
-<a href="#menu" class="btn">Ver Menú</a>
+<div class="hero-buttons">
+  <a href="#menu" class="btn">Ver Menú</a>
+  <a href="https://wa.me/593XXXXXXXXX" target="_blank" class="btn btn-secondary">Ordenar Ahora</a>
+</div>
 </div>
 </section>
 
@@ -65,15 +73,18 @@
 </div>
 </section>
 
-<section class="about">
-<div class="container">
-<h2>Sobre nosotros</h2>
-<p>Somos un restaurante especializado en hamburguesas artesanales
-preparadas con ingredientes frescos y carne premium.
-Nuestro objetivo es ofrecer una experiencia gastronómica única
-en un ambiente moderno y acogedor.</p>
-</div>
+<section class="order">
+  <div class="container">
+    <h2>Haz tu pedido ahora 🍔</h2>
+    <p>Ordena rápido y disfruta nuestras hamburguesas sin esperar.</p>
+
+    <div class="order-buttons">
+      <a href="https://wa.me/593XXXXXXXXX" target="_blank" class="btn">Pedir por WhatsApp</a>
+      <a href="tel:+593991234567" class="btn btn-secondary">Llamar ahora</a>
+    </div>
+  </div>
 </section>
+
 
 <section id="menu" class="menu">
 
@@ -85,7 +96,7 @@ en un ambiente moderno y acogedor.</p>
 
 <div class="menu-item">
 <div class="menu-text">
-<h3>Classic Burger</h3>
+<h3>Classic Burger <span class="tag">Popular</span></h3>
 <p>Carne premium, cheddar, lechuga y tomate</p>
 </div>
 <span class="price">$8.99</span>
@@ -140,7 +151,43 @@ en un ambiente moderno y acogedor.</p>
 
 </section>
 
-<section class="contact">
+<section class="testimonials">
+  <div class="container">
+
+    <div class="testimonial active">
+      <img src="images/person1.jpg" class="testimonial-img">
+      <p class="testimonial-text">
+        "Las mejores hamburguesas que he probado 🔥, el sabor es increíble."
+      </p>
+      <h4 class="testimonial-author">Juan Pérez - Cliente frecuente</h4>
+    </div>
+
+    <div class="testimonial">
+      <img src="images/person2.jpg" class="testimonial-img">
+      <p class="testimonial-text">
+        "Servicio rápido y excelente calidad, definitivamente volveré."
+      </p>
+      <h4 class="testimonial-author">María López - Cliente</h4>
+    </div>
+
+    <div class="testimonial">
+      <img src="images/person3.jpg" class="testimonial-img">
+      <p class="testimonial-text">
+        "El ambiente y la comida son perfectos, 100% recomendado."
+      </p>
+      <h4 class="testimonial-author">Carlos Gómez - Cliente</h4>
+    </div>
+
+    <div class="testimonial-controls">
+      <span class="dot active"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+
+  </div>
+</section>
+
+<section class="contact" id="contact">
 
 <div class="container">
 
@@ -157,7 +204,7 @@ en un ambiente moderno y acogedor.</p>
 <div class="contact-card">
 <i class="fa-solid fa-phone"></i>
 <h3>Teléfono</h3>
-<p>+593 99 123 4567</p>
+<p><a href="tel:+593991234567">+593 99 123 4567</a></p>
 </div>
 
 <div class="contact-card">
@@ -170,6 +217,16 @@ en un ambiente moderno y acogedor.</p>
 
 </div>
 
+</section>
+
+<section class="about">
+<div class="container">
+<h2>Sobre nosotros</h2>
+<p>Somos un restaurante especializado en hamburguesas artesanales
+preparadas con ingredientes frescos y carne premium.
+Nuestro objetivo es ofrecer una experiencia gastronómica única
+en un ambiente moderno y acogedor.</p>
+</div>
 </section>
 
 <footer>
